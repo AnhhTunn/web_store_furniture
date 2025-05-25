@@ -1,0 +1,19 @@
+.customers {
+    padding: 20px;
+}
+
+.customers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customers-container .img-customers {
+    width: 130px;
+}
+
+@media screen and (max-width:739px) {
+    .list-service{
+        padding: 10px;
+    }
+}

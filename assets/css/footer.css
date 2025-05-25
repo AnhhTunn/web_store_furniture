@@ -1,0 +1,132 @@
+.footer {
+    background-color: #f1efef;
+    padding: 10px 0 0 0;
+}
+
+.contact-info {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 400px;
+    color: #333;
+}
+
+.contact-info h3,
+.fanpage-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info h3 i {
+    color: #000;
+    margin-right: 5px;
+}
+
+.region {
+    margin-bottom: 20px;
+}
+
+.region strong {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.region p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.hotline {
+    font-weight: bold;
+}
+
+/* fanpage */
+.img-background {
+    position: relative;
+}
+
+.fanpage-header,
+.fanpage-button {
+    position: absolute;
+}
+
+.fanpage-header {
+    top: 0;
+}
+
+.fanpage-button {
+    bottom: 0;
+
+}
+
+.fanpage-box {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.fanpage-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fanpage-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.fanpage-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.fanpage-followers {
+    font-size: 13px;
+    color: white;
+}
+
+.fanpage-image {
+    width: 100%;
+    height: auto;
+}
+
+.fanpage-button {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.fanpage-button a {
+    background-color: #1877F2;
+    color: #fff;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.fanpage-button a i {
+    margin-right: 6px;
+}
+
+.footer-bottom {
+    background-color: #181818;
+    color: #ccc;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+}
+@media screen and (max-width:739px) {
+    .footer-top{
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,58 @@
+.reviews {
+    padding-bottom: 20px;
+
+}
+
+.reviews a {
+    color: black;
+}
+
+.img-reviews {
+    width: 100%;
+}
+
+.infor-reviews {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.star-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    margin-bottom: 10px;
+
+}
+
+.star-reviews span {
+    font-size: 15px;
+}
+.title-reviews{
+    padding: 0 10px;
+}
+.title-reviews span {
+
+    line-height: 20px;
+    color: rgb(126, 125, 125);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    /* thêm dấu ... */
+}
+
+@media only screen and (max-width: 739px) {
+
+    .list-reviews {
+        padding: 10px;
+    }
+
+}

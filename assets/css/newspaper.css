@@ -1,0 +1,55 @@
+.newspaper a {
+    color: black;
+}
+
+.newspaper {
+    border: 1px solid rgb(197, 195, 195);
+    margin-bottom: 20px;
+}
+
+.img-newspaper {
+    width: 100%;
+}
+
+.infor-newspaper {
+    padding: 10px;
+}
+
+.infor-newspaper .name-editor {
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-newspaper {
+    padding: 0 10px;
+    font-size: 18px;
+    color: #7c7c7c;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* thêm dấu ... */
+}
+
+.link-more {
+    padding: 10px;
+    text-align: right;
+}
+
+.link-more a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 739px) {
+
+    .list-newspaper {
+        padding: 10px;
+    }
+
+}

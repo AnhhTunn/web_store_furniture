@@ -1,0 +1,29 @@
+.banner,
+.banner-container,
+.banner-mobile {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-mobile {
+    display: none;
+}
+
+.img-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@media only screen and (min-width:740px) and (max-width: 1024px) {}
+
+@media only screen and (max-width:739px) {
+    .banner-container {
+        display: none;
+    }
+
+    .banner-mobile {
+        display: block;
+    }
+}
