@@ -36,6 +36,7 @@
 }
 
 .header-search .btn-search button {
+    cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
